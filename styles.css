@@ -1,14 +1,8 @@
 
 :root {
-    --primary: #0a2540; /* Navy Blue Institucional */
-    --accent: #00d084;  /* Verde Exness/Ação */
-    --text: #333;
-    --bg-light: #f8f9fa;
-    --white: #fff;
-    --font-head: 'Montserrat', sans-serif;
-    --font-body: 'Roboto', sans-serif;
+    --primary: #0a2540; --accent: #00d084; --text: #333; --bg-light: #f8f9fa; --white: #fff;
+    --font-head: 'Montserrat', sans-serif; --font-body: 'Roboto', sans-serif;
 }
-
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: var(--font-body); color: var(--text); line-height: 1.6; background: var(--bg-light); }
 a { text-decoration: none; transition: 0.3s; }
